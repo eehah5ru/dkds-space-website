@@ -1,0 +1,45 @@
+.index {
+  position: relative;
+
+  height: 100%;
+  min-height: 100%;
+
+  background-image: url('/images/bkg.jpg');
+  background-size: cover;
+  background-position: center;
+
+  span {
+    background-color: $white;
+  }
+}
+
+.index .title {
+  // @include absolute-center;
+  font-size: 10vw;
+}
+
+.index .address {
+  // @include absolute-center;
+  // padding-top: 18vw;
+}
+
+section.contact-email {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  // margin-right: rem-calc(20px);
+  z-index: 99;
+
+  a {
+    text-transform: none;
+  //   color: blue;
+
+  //   &:hover {
+  //     color: pink;
+  //   }
+
+  //   @include breakpoint(medium) {
+  //     color: black;
+  //   }
+  }
+}
